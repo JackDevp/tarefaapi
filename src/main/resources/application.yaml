@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:meudb
+    username: sa
+    password: password
+    driverClassName: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+  h2:
+    console:
+      enabled: true
+      path: /h2-ui
+# endereço do console: http://localhost:8080/h2-ui
