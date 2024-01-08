@@ -1,14 +1,7 @@
 
 # Tarefa API
 
-Iremos desenvolver uma API REST para gerênciamento de tarefas do nosso cotidiano. Nela teremos as seguintes operações:
-
-
-
-
-• Atualizar uma tarefa;
-• Buscar tarefas pelo seu status;
-
+Iremos desenvolver uma API REST para gerênciamento de tarefas do nosso cotidiano. Nela teremos as seguintes funcionalidades:
 
 
 ## Funcionalidades
