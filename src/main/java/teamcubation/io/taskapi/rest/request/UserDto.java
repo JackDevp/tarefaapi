@@ -1,4 +1,4 @@
-package teamcubation.io.tarefaapi.rest.request;
+package teamcubation.io.taskapi.rest.request;
 
 public class UserDto {
     private String name;

@@ -1,4 +1,4 @@
-package teamcubation.io.tarefaapi.domain;
+package teamcubation.io.taskapi.domain;
 
 public class User {
     private String name;

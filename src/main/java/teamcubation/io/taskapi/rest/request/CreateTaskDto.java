@@ -1,22 +1,18 @@
-package teamcubation.io.tarefaapi.rest.request;
+package teamcubation.io.taskapi.rest.request;
 
-import teamcubation.io.tarefaapi.domain.enums.TaskStatus;
+public class CreateTaskDto {
 
-public class UpdateTaskDto {
-
-    private Integer id;
     private String title;
     private String description;
     private UserDto user;
-    private TaskStatus status;
 
-    UpdateTaskDto(String title, String description, UserDto user) {
+    CreateTaskDto(String title, String description, UserDto user) {
         this.title = title;
         this.description = description;
         this.user = user;
     }
 
-    public UpdateTaskDto() {}
+    public CreateTaskDto() {}
 
     public String getTitle() {
         return title;
@@ -40,13 +36,5 @@ public class UpdateTaskDto {
 
     public void setDescription(String description) {
         this.description = description;
-    }
-
-    public TaskStatus getStatus() {
-        return status;
-    }
-
-    public void setStatus(TaskStatus status) {
-        this.status = status;
     }
 }

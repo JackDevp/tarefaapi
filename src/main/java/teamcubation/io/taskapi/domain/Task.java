@@ -1,6 +1,6 @@
-package teamcubation.io.tarefaapi.domain;
+package teamcubation.io.taskapi.domain;
 
-import teamcubation.io.tarefaapi.domain.enums.TaskStatus;
+import teamcubation.io.taskapi.domain.enums.TaskStatus;
 
 public class Task {
     private Long id;

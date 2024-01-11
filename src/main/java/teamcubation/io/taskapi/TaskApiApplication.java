@@ -1,4 +1,4 @@
-package teamcubation.io.tarefaapi;
+package teamcubation.io.taskapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

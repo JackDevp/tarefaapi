@@ -1,4 +1,4 @@
-package teamcubation.io.tarefaapi.rest;
+package teamcubation.io.taskapi.rest;
 
 
 import org.springframework.http.HttpStatus;
