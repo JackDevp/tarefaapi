@@ -37,7 +37,7 @@ Iremos desenvolver uma API REST para gerênciamento de tarefas do nosso cotidian
 | :---------- | :--------- | :---------------------------------- |
 | `titulo` | `string` | **Obrigatório**. Titulo da tarefa |
 | `descricao` | `string` |  Descrição da tarefa |
-| `usuario` | `Objeto` | **Obrigatório**. Usuário da tarefa |
+| `user` | `Objeto` | **Obrigatório**. Usuário da tarefa |
 | `nome` | `string` | **Obrigatório**. Nome do Usuário |
 | `time` | `string` | **Obrigatório**. Time do Usuário|
 
@@ -48,7 +48,7 @@ Iremos desenvolver uma API REST para gerênciamento de tarefas do nosso cotidian
 {
 "titulo": "Desenvolver Endpoint 1",
 "descricao": "Descricao do endpoint:",
-"usuario": {
+"user": {
     "nome": "Joao",
     "time": "Experiência do usuário"
   }
@@ -67,7 +67,7 @@ Iremos desenvolver uma API REST para gerênciamento de tarefas do nosso cotidian
     "id": 1,
     "titulo": "Desenvolver Endpoint 1",
     "descricao": "Descricao do endpoint: ...",
-    "usuario": {
+    "user": {
         "nome": "Joao",
         "time": "App iOS"
       },
@@ -90,7 +90,7 @@ Iremos desenvolver uma API REST para gerênciamento de tarefas do nosso cotidian
 | `titulo` | `string` | Titulo da tarefa |
 | `descricao` | `string` |  Descrição da tarefa |
 | `status` | `string` |  Status da tarefa |
-| `usuario` | `Objeto` |  Usuário da tarefa |
+| `user` | `Objeto` |  Usuário da tarefa |
 | `nome` | `string` |  Nome do Usuário |
 | `time` | `string` |  Time do Usuário|
 
@@ -99,8 +99,8 @@ Iremos desenvolver uma API REST para gerênciamento de tarefas do nosso cotidian
 ```javascript
     {
     "titulo": "Criação de usuarios",
-    "descricao": "ENDPOINT POST /usuario",
-    "usuario": {
+    "descricao": "ENDPOINT POST /user",
+    "user": {
         "nome": "Joao",
         "time": "App iOS"
     },
@@ -117,8 +117,8 @@ Iremos desenvolver uma API REST para gerênciamento de tarefas do nosso cotidian
 {
     "id": 1,
     "titulo": "Criação de usuarios",
-    "descricao": "ENDPOINT POST /usuario",
-    "usuario": {
+    "descricao": "ENDPOINT POST /user",
+    "user": {
         "nome": "Joao",
         "time": "App iOS"
     },
@@ -155,7 +155,7 @@ Iremos desenvolver uma API REST para gerênciamento de tarefas do nosso cotidian
         "id": 1,
         "titulo": "Desenvolver Endpoint 1",
         "descricao": "Descricao do endpoint: ...",
-        "usuario": {
+        "user": {
             "nome": "Joao",
             "time": "App iOS"
           },
@@ -165,7 +165,7 @@ Iremos desenvolver uma API REST para gerênciamento de tarefas do nosso cotidian
         "id": 2,
         "titulo": "Desenvolver Tela 1",
         "descricao": "Descricao da tela: ...",
-        "usuario": {
+        "user": {
             "nome": "Joao",
             "time": "App iOS"
           },
