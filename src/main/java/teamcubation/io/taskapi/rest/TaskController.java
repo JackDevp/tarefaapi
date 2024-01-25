@@ -16,8 +16,8 @@ public class TaskController {
 
 
     @GetMapping
-    public ResponseEntity getApiStatus() {
-        return new ResponseEntity("ON",HttpStatus.OK);
+    public ResponseEntity<String> getApiStatus() {
+        return new ResponseEntity<>("ON",HttpStatus.OK);
     }
 
 
